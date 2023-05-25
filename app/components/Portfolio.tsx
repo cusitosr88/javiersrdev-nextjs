@@ -68,7 +68,7 @@ export default function Portfolio () {
                     portfolio.map((p, index) => {
                         return (
                             <li key={index}>
-                            <span className="block overflow-hidden pb-2 group rounded-md border-2">
+                            <span className="block overflow-hidden pb-2 group rounded-lg border-2">
                             <BlurImage image={p.image}/>
                                 <div className="relative pt-3 px-2">
                                 <h3

@@ -6,7 +6,7 @@ import BlurImage from '../components/BlurImage';
 function PostCard(post: Post) {
     return (
         <li>
-        <div className="block overflow-hidden group rounded-md border-2">
+        <div className="block overflow-hidden group rounded-lg border-2">
             <Link href={post.url}>
                 <BlurImage image={post.img}/>
             </Link>

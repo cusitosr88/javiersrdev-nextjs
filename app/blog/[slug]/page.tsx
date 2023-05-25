@@ -1,7 +1,6 @@
 import { allPosts } from "contentlayer/generated";
 import { getMDXComponent } from "next-contentlayer/hooks";
 import { format, parseISO } from "date-fns";
-import Image from "next/image";
 
 export const generateStaticParams = async () =>
   allPosts.map((post:any) => ({ slug: post._raw.flattenedPath }));
