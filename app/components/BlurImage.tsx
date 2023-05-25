@@ -1,6 +1,6 @@
-"use client"; // This is a client component
-import Image from "next/image";
-import { useState } from "react";
+'use client'; // This is a client component
+import Image from 'next/image';
+import { useState } from 'react';
 
 interface Props {
     image: string,

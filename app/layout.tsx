@@ -2,6 +2,7 @@ import Header from '@/app/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/app/components/Footer'
+import ScrollToTop from './components/GotoTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <div className="min-h-screen bg-slate-800">
           <Header/>
           {children}
+          <ScrollToTop/>
           <Footer/>
         </div>
       </body>
