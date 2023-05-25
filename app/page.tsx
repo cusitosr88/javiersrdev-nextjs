@@ -1,5 +1,10 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Portfolio from "@/app/components/Portfolio";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://javiersr.dev'),
+};
 
 const navFollow = [
   {
