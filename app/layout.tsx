@@ -1,8 +1,10 @@
+import dynamic from 'next/dynamic'
 import Header from '@/app/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/app/components/Footer'
-import ScrollToTop from './components/GotoTop'
+
+const ScrollToTop = dynamic(() => import('./components/GotoTop'))
 
 const inter = Inter({ subsets: ['latin'] })
 
