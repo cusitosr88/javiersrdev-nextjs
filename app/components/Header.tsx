@@ -12,7 +12,7 @@ const nav: NavItem[] = [
         },
         {
             name: 'Portfolio',
-            link: '/#portfolio'
+            link: '#portfolio'
         },
         {
             name: 'Blog',

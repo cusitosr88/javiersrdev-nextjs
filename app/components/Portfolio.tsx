@@ -68,7 +68,7 @@ export default function Portfolio () {
                     portfolio.map((p, index) => {
                         return (
                             <li key={index}>
-                            <span className="block overflow-hidden group rounded-md border-2">
+                            <span className="block overflow-hidden pb-2 group rounded-md border-2">
                             <Image
                                 src={p.image}
                                 width={500}
@@ -87,7 +87,18 @@ export default function Portfolio () {
                                 
                                 <div className="mt-2 pb-2">
                                 <ul className="flex items-center space-x-1 flex-wrap">
-                                
+                                {
+                                  p.tech.map((tech, index) => {
+                                    return (
+                                      <li key={index} className="inline-block
+                                      px-2 py-1 mt-2
+                                      bg-slate-700 text-slate-100
+                                      rounded-full text-xs">
+                                        { tech }
+                                      </li>
+                                    )
+                                  })
+                                }
                                 </ul>
                                 </div>
                                 <div className="mt-2 pb-2">
