@@ -1,22 +1,14 @@
 import { allPosts, Post } from 'contentlayer/generated'
 import { compareDesc } from 'date-fns';
-import Image from 'next/image';
 import Link from 'next/link';
+import BlurImage from '../components/BlurImage';
 
 function PostCard(post: Post) {
     return (
         <li>
         <div className="block overflow-hidden group rounded-md border-2">
             <Link href={post.url}>
-                <Image
-                    src={post.img}
-                    alt='Post image'
-                    width={400}
-                    height={150}
-                    object-fit="cover"
-                    placeholder="blur"
-                    blurDataURL="images/no-image.jpg"
-                />
+                <BlurImage image={post.img}/>
             </Link>
         <div className="relative pt-3 px-2">
             <h3

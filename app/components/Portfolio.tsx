@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { AiOutlineLink } from "react-icons/ai";
+import BlurImage from "./BlurImage";
 
 interface PortfolioItem {
     title: string;
@@ -69,15 +69,7 @@ export default function Portfolio () {
                         return (
                             <li key={index}>
                             <span className="block overflow-hidden pb-2 group rounded-md border-2">
-                            <Image
-                                src={p.image}
-                                width={500}
-                                height={250}
-                                alt="Project image"
-                                priority={false}
-                                placeholder="blur"
-                                blurDataURL="images/no-image.jpg"
-                            />
+                            <BlurImage image={p.image}/>
                                 <div className="relative pt-3 px-2">
                                 <h3
                                 className="text-md font-bold text-slate-900"
