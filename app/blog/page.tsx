@@ -15,7 +15,7 @@ function PostCard(post: Post) {
                     height={150}
                     object-fit="cover"
                     placeholder="blur"
-                    blurDataURL={post.img}
+                    blurDataURL="images/no-image.jpg"
                 />
             </Link>
         <div className="relative pt-3 px-2">

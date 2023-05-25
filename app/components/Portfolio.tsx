@@ -76,7 +76,7 @@ export default function Portfolio () {
                                 alt="Project image"
                                 priority={false}
                                 placeholder="blur"
-                                blurDataURL={p.image}
+                                blurDataURL="images/no-image.jpg"
                             />
                                 <div className="relative pt-3 px-2">
                                 <h3
