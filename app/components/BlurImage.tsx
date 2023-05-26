@@ -10,7 +10,7 @@ export default function BlurImage({ image } : Props) {
     const [isLoading, setLoading] = useState(true);
   
     return (
-      <a className="group">
+      <div className="group">
         <div className="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-5 xl:aspect-h-3">
           <Image
             alt=""
@@ -27,6 +27,6 @@ export default function BlurImage({ image } : Props) {
             onLoadingComplete={() => setLoading(false)}
           />
         </div>
-      </a>
+      </div>
     );
   }
