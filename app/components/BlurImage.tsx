@@ -25,6 +25,7 @@ export default function BlurImage({ image } : Props) {
                     : "scale-100 blur-0 grayscale-0"
                 })`}
             onLoadingComplete={() => setLoading(false)}
+            loading='lazy'
           />
         </div>
       </div>
