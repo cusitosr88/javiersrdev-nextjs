@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
+import { AiOutlineUp } from "react-icons/ai";
 
 const ScrollToTop = () => {
   const [visible, setVisible] = useState<boolean>(false);
@@ -29,18 +30,14 @@ const ScrollToTop = () => {
                 font-medium 
                 rounded-full 
                 text-lg 
-                p-2.5 
+                p-4
                 text-center 
                 inline-flex 
                 items-center mr-2
             "
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
-                stroke="#FFFFFF"
-                stroke-width="1" stroke-linecap="square" stroke-linejoin="arcs">
-                    <path d="M18 15l-6-6-6 6"/>
-                </svg>
+                <AiOutlineUp size="1.5em"/>
             </button>
             </div>
         )}
