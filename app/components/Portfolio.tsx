@@ -16,6 +16,7 @@ interface PortfolioItem {
       description: 'Creation Kit is a fantastic tool that helps you create a short, 3-minute video vision board of your dream life. It\'s like watching a movie that features powerful affirmations, beautiful images, motivating videos, and uplifting music which gives you a positive mindset.',
       tech: ['Vue.js', 'JavaScript', 'Quasar Framework', 'AWS', 'PWA'],
       link: 'https://platinum.mindmovies.com/'
+      
     },
     {
       title: 'Community Service Manager',
@@ -23,6 +24,14 @@ interface PortfolioItem {
       description: 'Is a Web app, a powerful tool for managing the sale of medical insurance policies. It offers insurance agents a streamlined platform to customize and sell policies, as well as track sales and revenue. The user-friendly interface makes managing sales a breeze.',
       tech: ['Django', 'Python', 'Vue.js', 'JavaScript', 'Quasar Framework'],
       link: ''
+    },
+    {
+      title: 'Srnity Haven',
+      image: '/images/srheaven.jpg',
+      description: 'Serenity Haven is a consultancy firm that believes in creating meaningful connections with clients and helping them achieve their full potential. The firm\'s focus on trust, empathy, and leadership has helped it to build a strong reputation for providing exceptional services.',
+      tech: ['Vue.js', 'TypeScript', 'NuxtJs', 'Netlify', 'Tailwind'],
+      link: 'https://srnityhaven.com/'
+      
     },
     {
       title: 'Housettel',
