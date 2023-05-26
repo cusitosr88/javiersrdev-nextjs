@@ -29,7 +29,7 @@ export default function Header () {
             nav.map((n, index) => {
                 return (
                     <li key={index}>
-                    <Link
+                    <a
                         href={n.link}
                         className="inline-block
                         text-slate-200
@@ -37,10 +37,9 @@ export default function Header () {
                         lg:text-base px-2 py-2
                         rounded-full hover:text-blue-800
                         transition-all duration-300"
-                        scroll={index === 1 ? false : true}
                     >
                         {n.name}
-                    </Link>
+                    </a>
                 </li>
                 )
             })
