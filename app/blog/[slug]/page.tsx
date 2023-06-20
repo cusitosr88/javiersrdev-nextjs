@@ -23,7 +23,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   }
 
   return (
-    <article className="bg-white pt-5 pb-5 ">
+    <article className="bg-white pt-5 pb-5 text-slate-900">
         <div className="mx-auto lg:max-w-4xl px-5 lg:text-lg prose">
         <h1 >{post.title}</h1>
         <p className="pb-1">{format(parseISO(post.date), "LLLL d, yyyy")}</p>
