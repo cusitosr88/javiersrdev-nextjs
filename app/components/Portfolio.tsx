@@ -12,7 +12,7 @@ interface PortfolioItem {
   const portfolio: PortfolioItem[] = [
     {
       title: '(SPA) Video Editor',
-      image: '/images/mindmovies.webp',
+      image: '/images/mindmovies.jpg',
       description: 'Creation Kit is a fantastic tool that helps you create a short, 3-minute video vision board of your dream life. It\'s like watching a movie that features powerful affirmations, beautiful images, motivating videos, and uplifting music which gives you a positive mindset.',
       tech: ['Vue.js', 'JavaScript', 'Quasar Framework', 'AWS', 'PWA'],
       link: 'https://platinum.mindmovies.com/'
@@ -20,7 +20,7 @@ interface PortfolioItem {
     },
     {
       title: 'Community Service Manager',
-      image: '/images/ammecs.webp',
+      image: '/images/ammecs.jpg',
       description: 'Is a Web app, a powerful tool for managing the sale of medical insurance policies. It offers insurance agents a streamlined platform to customize and sell policies, as well as track sales and revenue. The user-friendly interface makes managing sales a breeze.',
       tech: ['Django', 'Python', 'Vue.js', 'JavaScript', 'Quasar Framework'],
       link: ''
@@ -35,28 +35,28 @@ interface PortfolioItem {
     },
     {
       title: 'Housettel',
-      image: '/images/housettel.webp',
+      image: '/images/housettel.jpg',
       description: 'HOUSETTEL is a one-stop-shop for new-build housing listings in Spain. This web portal simplifies the search process by gathering all available options for you to browse, compare, and consider at your leisure.',
       tech: ['Django', 'Python', 'Vue.js', 'JavaScript', 'Quasar Framework'],
       link: 'https://www.housettel.com/en/'
     },
     {
       title: 'MY Booking engine',
-      image: '/images/my-booking.webp',
+      image: '/images/my-booking.jpg',
       description: 'Is designed to simplify the booking process for guests and hotels alike. Built using Vue.js and TypeScript, it provides a flexible and scalable solution that can cater to the needs of hotels of any size.',
       tech: ['Vue.js', 'TypeScript', 'Quasar Framework', 'Vuex'],
       link: 'https://mybooking.com.es/?client_id=12&client_secret=ZtgRLX1FJSSfr4fd3LUfY0mKK1AlLvhn6TuQoBA1'
     },
     {
       title: 'Syncbed',
-      image: '/images/syncbed.webp',
+      image: '/images/syncbed.jpg',
       description: 'Syncbed is a feature-rich hotel software that simplifies the complexity of managing your booking calendars. It synchronizes and updates your vacation property calendar automatically across sites such as Airbnb, Booking, etc.',
       tech: ['Vue.js', 'JavaScript', 'Quasar Framework', 'Django', 'Python'],
       link: 'https://www.syncbed.com/'
     },
     {
       title: 'Vufink',
-      image: '/images/vufink.webp',
+      image: '/images/vufink.jpg',
       description: 'VuFink is a powerful web application designed to simplify the management of community organizations.',
       tech: ['Vue.js', 'JavaScript', 'Quasar Framework', 'Django', 'Python'],
       link: 'https://www.vuestrafinca.com/'
