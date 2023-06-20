@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function BlurImage({ image } : Props) {
-    const [isLoading, setLoading] = useState(true);
+    const [isLoading, setLoading] = useState<boolean>(true);
   
     return (
       <div className="group">
