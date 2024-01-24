@@ -11,6 +11,14 @@ interface PortfolioItem {
 
 const portfolio: PortfolioItem[] = [
   {
+    title: 'Remoto List App',
+    image: '/images/remotolist.jpg',
+    description:
+      'RemotoList - is an Android app that seamlessly connects you to high-quality job opportunities around the world. Enjoy the flexibility that remote work offers',
+    tech: ['Vue.js', 'TypeScript', 'Quasar Framework', 'Capacitor'],
+    link: 'https://play.google.com/store/apps/details?id=com.remotolist.app&hl=en&gl=US',
+  },
+  {
     title: '(SPA) Video Editor',
     image: '/images/mindmovies.jpg',
     description:
