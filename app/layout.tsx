@@ -3,7 +3,6 @@ import Header from '@/app/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/app/components/Footer'
-import Script from 'next/script'; 
 
 const ScrollToTop = dynamic(() => import('./components/GotoTop'))
 
@@ -28,12 +27,6 @@ export default function RootLayout({
           <ScrollToTop/>
           <Footer/>
         </div>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1156952395117339"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   )
