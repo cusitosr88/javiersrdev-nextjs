@@ -3,6 +3,7 @@ import Header from '@/app/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/app/components/Footer'
+import Script from 'next/script'; 
 
 const ScrollToTop = dynamic(() => import('./components/GotoTop'))
 
@@ -11,7 +12,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'JavierDev Portfolio | Web Developer',
   description: 'Take a closer look at my portfolio, an experienced web developer with expertise in Vue.js, Quasar Framework, Nuxt.js, React and JavaScript.',
-  googleAdsenseAccount: 'ca-pub-1156952395117339',
 }
 
 export default function RootLayout({
@@ -28,6 +28,12 @@ export default function RootLayout({
           <ScrollToTop/>
           <Footer/>
         </div>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1156952395117339"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
