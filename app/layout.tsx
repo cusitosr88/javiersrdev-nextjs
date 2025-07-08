@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'JavierDev Portfolio | Web Developer',
   description: 'Take a closer look at my portfolio, an experienced web developer with expertise in Vue.js, Quasar Framework, Nuxt.js, React and JavaScript.',
+  googleAdsenseAccount: 'ca-pub-1156952395117339',
 }
 
 export default function RootLayout({
