@@ -28,6 +28,8 @@ export default function RootLayout({
           <Footer/>
         </div>
       </body>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1156952395117339"
+     crossorigin="anonymous"></script>
     </html>
   )
 }
